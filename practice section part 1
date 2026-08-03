@@ -1,0 +1,75 @@
+#question1->create a list of 10 numbers and print all elements.
+
+lst=[12,76,56,97,354,878,45,867,53,3353]
+print(lst)
+
+#question2->Print only even numbers from a list
+
+number=[23,22,13,12,43,45,66,90]
+print(number)
+for num in number:
+ if num%2==0:
+    print(num)
+
+ #question3->Print the odd numbers from a list
+
+number=[32,34,33,45,67,89,44,39,40]
+print(number)
+for num in number:
+    if num%2!=0:
+        print(num)
+
+
+#question4->Find the largest element in a list without using max()
+
+number=[23,43,5,3,23,34,55,65,34]
+largest=number[0]
+for num in number:
+ if num>largest:
+    largest=num
+print(largest)
+
+
+
+#question5->find the smallest element in a list without using mix()
+
+number=[23,44,67,34,54,66,34]
+print(number)
+smallest=number[0]
+for num in number:
+    if num<smallest:
+        smallest=num
+print(smallest)
+
+
+#question6->find the sum of all elements in a list
+
+lst=[33,4,4,54,6,56,66,6,44,44,54]
+total=sum(lst)
+print(total)
+
+
+#question7->Find the average of all elements from a list
+
+lst=[23,34,23,16,34,54,5,23,32,3,41]
+average=sum(lst)/len(lst)
+print(average)
+
+#question8->Remove duplicate elements from a list
+
+lst=[23,44,56,56,23,45,76,87,24,24]
+print(lst)
+print(set(lst))
+
+#question9->Reverse a list without using a reverse()
+
+lst=[324,43,43,53,567]
+print(lst[::-1])
+
+#question10=>Find the second largest element in a list
+
+lst=[12,33,32,54,67,76,35,35]
+lst.sort()
+print("second largest number",lst[-2])
+
+
