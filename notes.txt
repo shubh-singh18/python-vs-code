@@ -1,0 +1,1 @@
+hello sshivampython -u "c:\Users\divakar vishwakarma\Desktop\python vs code\Practice_file_handling_question_part2.py"

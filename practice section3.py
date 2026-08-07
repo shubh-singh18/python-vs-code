@@ -12,14 +12,12 @@ print(var)
 
 
 #question3=>sort a list of tuple based on the second element using a lambda function 
-
 lst=[("shubh",21),("devansh",20),("shivam",9)]
 print(lst)
 var=sorted(lst,key=lambda x:x[1])
 print(var)
 
 #question4=>use map() to find the square of every number of list
-
 lst=[2,4,5,6,12,34]
 print(lst)
 var=map(lambda a:a*a,lst)
@@ -33,7 +31,6 @@ var=map(lambda a:a.upper(),lst)
 print(list(var))
 
 #question6=>use filter() to print only even numbers from a list
-
 lst=[34,36,54,65,67,75,24,69]
 print(lst)
 var=filter(lambda a:a%2==0,lst)
