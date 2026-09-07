@@ -22,4 +22,3 @@ ab=Time(4,50)
 res=(aa+ab)
 print(res.hr,"hr",res.min,"min")
 
-

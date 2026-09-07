@@ -77,8 +77,8 @@ def smallest(number):
             smallest=num
     return smallest
 number=(23,43,55,76,8)
-print(smallest(number))
-
+print(smallest(number))     
+                                                            
 
 
  

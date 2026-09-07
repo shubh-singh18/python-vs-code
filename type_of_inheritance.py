@@ -50,6 +50,7 @@ aa=student2("divansh",20,70)
 ab.display()
 aa.display()
 
+
 # mutiple
 
 class student:
@@ -68,6 +69,5 @@ class priciple(student,teacher):
     pass
 aa=priciple("shubh",20,)
 aa.display()
-aa.show()
 
-    
+aa.show() 

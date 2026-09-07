@@ -47,7 +47,7 @@ try:
       raise ValueError("error,enter a marks between 0 to 100")
    print(marks)
 except ValueError as e:
-   print("error,enter a numeric value",e)
+   print(e)
 
 
 #question3->. Bank Withdrawal System
@@ -74,6 +74,8 @@ except Exception as e:
     
 
 #4. Age Eligibility Checker
+
+
 
 #Write a program that takes a person's age.
 

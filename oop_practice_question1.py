@@ -4,7 +4,7 @@ class Person:
         self.name=name
         self.age=age
 class student(Person):
-    def __init__(self,name,age,rollno,course):
+    def __init____(self,name,age,rollno,course):
         super().__init__(name,age)
         self.rollno=rollno
         self.course=course

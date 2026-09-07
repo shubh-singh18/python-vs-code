@@ -72,7 +72,11 @@ with open("student.txt","r")as f:
    h=f.read()
    with open("destination.txt","w")as g:
       g.write(h)
-      
+ 
+
+
+
+
       
 
 

@@ -12,3 +12,7 @@ def second_largest(number):
     return second
 number=(45,56,76,77,45,70)
 print(second_largest(number))
+
+
+    
+    

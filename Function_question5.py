@@ -9,3 +9,4 @@ def count_vowels(text):
     return count
 text=input("enter a text")
 print(count_vowels(text))
+

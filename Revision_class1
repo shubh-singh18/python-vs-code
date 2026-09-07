@@ -1,0 +1,380 @@
+# #swap two number
+# a=234
+# b=778
+# a,b=b,a
+# print(a,b)
+
+# #swap two string
+# a="shubh"
+# b="Thakur"
+# a,b=b,a
+# print(a,b)
+
+# #swap two number with help of c
+# a=78
+# b=97
+# c=a
+# a=b
+# b=c
+# print(a,b)
+
+#swap two number other method
+# a=56
+# b=76
+# a=a+b
+# b=a-b
+# a=a-b
+# print(a,b)
+
+# #print ADD two number
+# a=56
+# b=798
+# print(a+b)
+
+#slicing string
+#string slicing means taking a part (substring)of a string using indexes
+#start and end
+# text="python"
+# print(text[1:5])
+# #slice from beginning
+# text="python"
+# print(text[:5])
+# #slice till end
+# text="python"
+# # print(text[2:])
+# #copy entire string
+# text="python"
+# print(text[:])
+# #using set
+# text="python"
+# print(text[0:6:2])
+
+#reverse a string
+# text="python"
+# print(text[::-1])
+#negative index
+# text="python"
+# print(text[-4:-1])
+
+# name="DataAnalyst"
+# print(name[0:4])
+# print(name[4:12])
+# print(name[-7:])
+# print(name[::2])
+# print(name[::-1])
+#type od casting
+# name="1234"
+# a=int(name)
+# # print(a)
+# # print(type(a))
+
+# # type of casting
+# # implicit casting
+# a=34.56
+# b=34
+# c=a+b
+# print(type(c))
+
+# # explicit casting
+# a=12.3
+# b=int(a)
+# print(type(b))
+
+# operator
+# # question1
+# a=int(input("enter a number"))
+# b=int(input("enter a number"))
+# c=int(input("enter a number"))
+# average=(a+b+c)/3
+# print(average)
+
+# #question2
+# p=100000
+# r=12
+# t=3
+# i=(p*r*t)/3
+# # print(i)
+# #question3
+# r=float(input("enter a number"))
+# c=(2*3.14*r)
+# print(c)
+
+# #question4
+# a=float(input("enter a number"))
+# b=float(input("enter a number"))
+# c=float(input("enter a number"))
+# x=str("hour")
+# y=str("minutes")
+# z=str("second")
+# e=a*60,(y)
+# f=b*60,(z)
+# g=a*60*60,(z)
+# h=b/60,(x)
+# i=c/(60*60),(x)
+# j=c/60,(y)
+# print(e)
+# print(f)
+# print(g)
+# print(h)   
+# print(i)
+# print(j)
+
+
+# ternary operator
+# # a ternary is a one-line shortcut for an if-else statement. It is also called a conditional experssion
+# number=12
+# r="positve" if number>0 else "negative"
+# print(r)
+
+# example
+# a=[12,34]
+# b=a
+# c=[56,12]
+# print(a is b)
+# print(a is c)
+# print(a is not c)
+
+#write a program to calculate the square and cube of a number
+# a=int(input("enter a number"))
+# sqaure=a**2
+# cube=a**3
+# print(sqaure)
+# print(cube)
+
+# #write a program to check whether two number are equal or not
+# a=60
+# b=60
+# # print(a==b)
+
+# #write a program to find the greater of two number
+# a=int(input("enter a number"))
+# b=int(input("enter a numbeer"))
+# greater=a if a>b else b
+# print(greater)
+
+# #write a program to check wheether a person is eligible for voting
+# age=int(input("enter a number"))
+# if age>18:
+#     print("they can vote")
+# else:
+#     print("they can not vote")
+
+#write a program to check whether a number is positive,negative or zero
+# n=int(input("enter a number"))
+# print(n>0)
+# print(n<0)
+# print(n==0)
+
+#write a program to find the largest of three number
+# a=10
+# b=89
+# c=4
+# largest=a if(a>=b and a>=c) else (b if b>=c else c)
+# print(largest)
+
+# # question1
+# year=int(input("enter a year"))
+# if (year%4==0 and year%100!=0) or (year%400==0):
+#     print("this year is leap year")
+# else:
+#     print("this year is not leap year")
+
+# question2
+# color=str(input("enter a traffic light"))
+# if (color=="red"):
+#     print("stop")
+# elif (color=="yellow"):
+#     print("slow down")
+# elif (color=="green"):
+#     print("go")
+# else:
+#     print("invalid")
+
+
+#question3
+# letter=(input("enter a letter"))
+# if letter in "aieou":
+#     print("it is a vowel")
+# else:
+#     print("it is a consonant")
+
+
+# side1=int(input("enter a first side"))
+# side2=int(input("enter a second side"))
+# side3=int(input("enter a third side"))
+# if (side1+side2>side3) and (side1+side3>side2) and (side2+side3>side1):
+#     print("this is valid")
+# else:
+#     print("this is invalid")
+
+# master_username="ss"
+# master_password="18"
+# user=(input("enter a namer"))
+# password=(input("enter a password"))
+# if master_password==password :
+#  if master_username==user:
+#   print("login successful")
+# else:
+#  print("wrong password")
+
+#print number 1 to 5
+# for i in range(1,5):
+#     print(i)
+
+#print iteam in a list:
+# fruits=["apple","banana","mango"]
+# for i in fruits:
+#     print(i)
+
+# for i in range(2,11,2):
+#     print(i)
+
+# name="shubh"
+# for i in name:
+#     print(i)
+
+# a=int(input("enter a table number"))
+# for i in range(1,11):
+#     print(a*i)
+
+# a=int(input("enter a number"))
+# fact=1
+# for i in range(1,a+1):
+#     fact=fact*i
+#     print(fact)
+
+# find the sum of number
+# a=int(input("enter a number"))
+# sum=0
+# for i in range(1,a+1):
+#     sum=sum+i
+#     print(sum)
+
+# find the sum of even number
+# a=int(input("enter a number"))
+# sum=0
+# for i in range(1,a+1,2):
+#     sum=sum+i
+#     print(sum)
+
+# print the prime number or not
+# a=int(input("enter a number"))
+# count=0
+# if (a<=1):
+#     count=count+1
+# else:
+#     for i in range(2,a):
+#         if (a%i==0):
+#             count=count+1
+# if count==0:
+#     print("prime")
+# else:
+#     print("not prime")
+
+# sum of odd number find
+# n=int(input("enter a number"))
+# sum=0
+# for i in range(1,n+1):
+#     if i%2!=0:
+#         sum=sum+i
+# print(sum)
+
+# text=input("enter a letter")
+# count=0
+# for ch in text:
+#     if ch.lower() in "aieou":
+#         count+=1
+#         print(count)
+
+# text=input("enter a number")
+# rev=""
+# for i in range(len(text)-1,-1,-1):
+#     rev+=text[i]
+# print(rev)
+
+# number=[34,56,76,45,89]
+# largest=number[0]
+# for num in number:
+#     if num>largest:
+#         largest=num
+# print(largest)
+
+# for i in range(1,101):
+#     if i%3==0 and i%5==0:
+#         print("fizz buzz")
+#     elif i%3==0:
+#         print("fizz")
+#     elif i%5==0:
+#         print("buzz")
+# else:
+#     print(i)
+
+
+# rows=5
+# for i in range(1,rows+1):
+# #     print("*"*i)
+
+# a=int(input("enter a number"))
+# for i in range(1,a+1):
+#     print(i)
+#     for j in range(1,11):
+#         print(i*j)
+
+# a=int(input("enter a number"))
+# i=6
+# # while(i<=a):
+# #     i+=6
+# #     print(i)
+
+# # print a odd number use while loop
+# a=int(input("enter a number"))
+# i=1
+# sum=0
+# while i<=a:
+#     sum+=i
+#     i+=2
+#     print(sum)
+
+# balance=1000
+# while True:
+#     amount=int(input("enter a number"))
+#     if amount<=balance:
+#         balance-=amount
+#         print("withdraw successsfull")
+#     else:
+#         print("insufficient balance")
+
+#     again=input("withdraw again?(yes/no)")
+#     again.lower()!="yes"
+#     print("thanks you")
+#     break
+
+# user_name="shubh"
+# password=1234
+# while True:
+#     name=str(input("enter a user_name"))
+#     password1=int(input("enter a password"))
+#     if name==user_name  and password==password1:
+#         print("login sussfull")
+#     else:
+#         print("wrong username and passsword")
+
+choice="yes"
+while choice=="yes":
+    name=input("enter student name")
+    english=int(input("enter a marks"))
+    hindi=int(input("enter a marks"))
+    computer=int(input("enter a marks"))
+    total=english+hindi+computer
+    average=total/3
+    print("name",name)
+    print(total)
+    print(average)
+
+choice=input("do yo want to add student?(yes/no).lower()")
+print("program end")
+
+
+a=23.9
+b=int
+print(b)

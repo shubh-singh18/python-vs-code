@@ -54,6 +54,11 @@
 
 #Read all lines
 
-with open("reading.txt","r")as f:
-    line=f.readlines()
-    print(line)
+#with open("reading.txt","r")as f:
+ #   line=f.readlines()
+  #  print(line)
+
+
+
+
+

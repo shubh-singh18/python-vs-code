@@ -1,11 +1,12 @@
-def is_prime(n):
-    if n <= 1:
-        return False
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
-
-number = int(input("Enter a number: "))
-if is_prime(number):
-    print(number, "is a prime number")
+a=int(input("enter a number"))
+count=0
+if (a>1):
+    count=count+1
+else:
+    for i in range(1,a+1):
+        if i%2==0:
+            count=count+1
+if count==0:
+    print("prime")
+else:
+    print("not prime")

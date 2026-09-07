@@ -16,4 +16,4 @@ class manager(Employee):
         print(self.salary)
         print(self.section)
 aa=manager("devansh",50000,"cse")
-aa.display()
+     

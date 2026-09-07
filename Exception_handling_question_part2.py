@@ -64,6 +64,7 @@ except AgeError as f:
 #- If the transaction is successful, display the remaining balance.
 
 
+
 class InsufficientBalance(Exception):
     pass
 Balance=5000
@@ -77,5 +78,23 @@ try:
 except InsufficientBalance as f:
    print(f)
 except ValueError:
-   print("error please enter amount")
+  print("error please enter amount")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+   
 

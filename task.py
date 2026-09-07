@@ -104,26 +104,3 @@ print(Product.check_price(4500))
 # - check_price() as static method
 
 
-class vehicle():
-    showroom="Bike"
-    def __init__ (self,brand,price):
-        self.brand=brand
-        self.price=price
-
-    def display(self):
-        print(f"brand{self.brand},price{self.price}")
-
-    @classmethod
-    def aa(cls,ss):
-        cls.showroom=ss
-        print(cls.showroom)
-
-    @staticmethod
-    def check_price(price):
-        return price>0
-aa=vehicle("Fortuner","5800000")    
-aa.display()
-vehicle.aa("car")
-print(vehicle.check_price(5800000))
-
-    
