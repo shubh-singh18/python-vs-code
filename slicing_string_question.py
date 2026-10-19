@@ -6,17 +6,22 @@ print(text[0:5])
 text="chauhan"
 print(text[-4:])
 
+
 # Write a program to reverse a string using slicing.
 text="chauhan"
 print(text[::-1])
+
 
 # Write a program to print every second character of a string using slicing
 text="chauhan"
 print(text[0:7:2])
 
+
 # Write a program to print characters from index 2 to index 6 using slicing.
 text="chauhan"
 print(text[2:6])
+
+
 
 # Write a program to check whether a string is a palindrome using slicing.
 text=input("enter a string")
@@ -25,6 +30,7 @@ if text==text[::-1]:
     print("palindramoe")
 else:
     print("not palindrome")
+
 
 # "PythonProgramming" me se sirf Python slicing se print karo.
 text="pythonprogramming"
