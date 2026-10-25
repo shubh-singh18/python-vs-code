@@ -1,0 +1,81 @@
+
+# use dunder method to add two numbers:
+
+# use dunder method to add two numbers:
+class student:
+    def __init__(self,marks):
+        self.marks=marks
+    def __add__(self,other):
+        return self.marks+other.marks
+a=student(34)
+b=student(67)
+print(a+b)
+
+# three or more number ko add kar ne liye use dunder method
+class student :
+    def __init__(self,marks):
+        self.marks=marks
+    def __add__(self,other):
+        return student(self.marks+other.marks)
+a=student(200)
+aa=student(34)
+ab=student(67)
+ac=student(67)
+var=aa+ab+ac
+print(var.marks)
+
+# without dender method overloading nhi ho skata hai thik
+class student:
+    def __init__(self,marks):
+        self.marks=marks
+aa=student(45)
+ab=student(67)
+print(aa+ab)
+
+
+# Abstraction 
+from abc import abstractmethod
+class Animal:
+    @abstractmethod
+    def sound(self):
+        pass
+class Dog:
+    def sound(self):
+        print("dog is bark")
+a=Dog()
+a.sound()
+
+
+# three or more number ko add kar ne liye use dunder method
+class student :
+    def __init__(self,marks):
+        self.marks=marks
+    def __add__(self,other):
+        return student(self.marks+other.marks)
+a=student(200)
+aa=student(34)
+ab=student(67)
+ac=student(67)
+var=aa+ab+ac
+print(var.marks)
+
+# without dender method overloading nhi ho skata hai thik
+class student:
+    def __init__(self,marks):
+        self.marks=marks
+aa=student(45)
+ab=student(67)
+print(aa+ab)
+
+
+# Abstraction 
+from abc import abstractmethod
+class Animal:
+    @abstractmethod
+    def sound(self):
+        pass
+class Dog:
+    def sound(self):
+        print("dog is bark")
+a=Dog()
+a.sound()
